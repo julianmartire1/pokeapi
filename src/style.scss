@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "@/variables.scss";
+
+:root {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: $white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #f6f6f6;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #f6f6f6;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #f6f6f6;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: $grey-2;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #d2d2d2;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #bbbbbb;
+}
+
+.btn {
+  font-family: Lato, sans-serif;
+  height: 44px;
+  padding: 11px 20px 11px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.primary {
+  background-color: #f22539;
+}
+
+.secondary {
+  background-color: $grey-2;
+}
+
+.block {
+  width: 100%;
+}
+
+.favorite {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background-color: $grey-4;
+  border: none;
+  color: $grey-2;
+}
+
+.favorite--active {
+  color: $gold;
+}
